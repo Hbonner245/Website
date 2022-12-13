@@ -1,0 +1,23 @@
+<doctype! html>
+<html>
+<head>
+	<title> Login System </title>
+</head>
+<body>
+	<p> Please enter your credentials below: </p>
+	<!--The action attribute defines what action is going to be performed when the form is submitted 
+		The method attribute value specifies that the form dats will be sent to the server by storing it in an HTTP request body-->
+	<form action= "Collecting_User_Details.php" method ="post">
+	<h1> Login </h1>
+	<p>
+		<label>Username: </label><input type="text" name="Username"/>
+	</p>
+	<p>
+		<label>Password:  </label><input type ="text" name="Password"/>
+	</p>
+	<p>
+		<input type ="Submit" value="submit details"/>
+	</p>
+	</form>
+</body>
+</html>
